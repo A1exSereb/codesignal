@@ -9,3 +9,9 @@ function solution(n, firstNumber) {
         if(i === arr.length - 1) i = -1
     }
  }
+
+ //simple way :)
+
+function solution(n, firstNumber) {
+    return (n/2+firstNumber)%n
+}
