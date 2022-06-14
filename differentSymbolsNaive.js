@@ -8,3 +8,5 @@ const solution2 = (s) => {
     }
     return counter;
 }
+// oh, i remember that we have set, so...
+const solution3 = (s) => new Set(s).size
